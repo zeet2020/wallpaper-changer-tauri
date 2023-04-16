@@ -1,0 +1,31 @@
+{
+  "name": "wallpaper-changer",
+  "version": "0.1.0",
+  "description": "wallpaper change app build with tauri and uses pixbay api to fetch the wallpapers",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build ./src/index.html --dist-dir ./ui-dist",
+    "dev": "parcel ./src/index.html --dist-dir ./ui-dist"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.3",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.2.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-toastify": "^9.1.1"
+  },
+  "keywords": [
+    "tauri",
+    "pixbay"
+  ],
+  "author": "zeeshan",
+  "license": "MIT"
+}
