@@ -27,5 +27,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install yarn
-    - run: yarn tauri
+    - run: yarn install
     - run: yarn tauri build
